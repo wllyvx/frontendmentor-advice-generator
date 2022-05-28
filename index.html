@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Manrope:wght@300;800&display=swap" rel="stylesheet"> 
+  <!-- font end -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style/output.css">
+  
+  <title>Frontend Mentor | Advice generator app</title>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: var(--neon-green); }
+  </style>
+</head>
+<body class="bg-dark-blue text-center">
+  <div id="card-container" class="flex flex-col justify-center items-center h-[100vh] px-3">
+    <div id="card" class="relative max-w-xl bg-dark-grayish-blue rounded-lg pt-8 md:pt-14 pb-12 md:pb-20 px-2 md:px-8 flex flex-col justify-center items-center space-y-6 md:space-y-10">
+      <p class="advice-id text-neon-green uppercase text-base tracking-[5px] font-manrope font-extrabold">Advice #</p>
+      <p class="advice text-light-cyan text-3xl font-manrope font-extrabold"><span>It is easy to sit up and take notice, whats difficult is getting up and taking action</span>"</p>
+      <div>
+        <img src="./images/pattern-divider-mobile.svg" alt="" class="md:hidden">
+        <img src="./images/pattern-divider-desktop.svg" alt="" class="hidden md:block">
+      </div>
+      <div class="btn absolute bottom-0 translate-y-[50%] bg-neon-green p-4 md:p-5 rounded-full cursor-pointer">
+        <img src="./images/icon-dice.svg" alt="" class="w-5 md:w-6">
+      </div>
+    </div>
+  </div>
+  
+  <div class="attribution text-white">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/wllyvx" target="_blank">Willy Fajar Ramadhan</a>.
+  </div>
+
+  <script src="./script/app.js"></script>
+</body>
+</html>
